@@ -1,0 +1,20 @@
+.text-justify{
+    text-align: justify;
+}
+.box-content{
+font-size: 22px;
+font-weight: 700;
+text-transform: uppercase;
+color: #fff;
+text-align: center;
+margin-top: -80px;
+}
+.post{
+font-size: 18px;
+font-weight: 500;
+}
+@media screen and (max-width:768px){
+    .apple{
+        margin-top: -330px;
+    }
+}

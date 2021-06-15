@@ -1,0 +1,110 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.cf_two {
+    background-image: url(https://www.firstfiddle.in/assets/images/bannerabout.jpg);
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+}
+
+.cf_two_h1 {
+    margin-top: 120px;
+    font-family: prague;
+    color: #fff;
+    font-size: 60px;
+}
+
+.mtop {
+    background-color: #fbac29;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cf_four {
+    background-image: url(https://www.firstfiddle.in/assets/images/outletbanner.png);
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0 !important;
+    background-size: cover;
+}
+
+.mt-20 {
+    font-family: prague;
+    color: #fff;
+    font-size: 60px;
+    margin-top: 102px;
+}
+
+.mainfooter {
+    background: #020306f0;
+    padding: 50px;
+    color: #fff;
+}
+
+.slider {
+    background-image: url(https://app.firstfiddle.in/images/brand-banner/plum.jpeg);
+    height: 668px;
+    background-repeat: no-repeat;
+    /* border: solid; */
+    background-size: cover;
+}
+
+.web-logo {
+    width: 65px;
+}
+
+.navbar {
+    background-color: #0000009c;
+}
+
+.nav-link {
+    padding: 20px !important;
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.active {
+    color: #fbac29 !important;
+}
+
+.border-box {
+    border-style: solid;
+    border-width: thin;
+    border-color: #fbab29;
+    padding: 5px 20px !important;
+    margin-top: 15px !important;
+}
+
+@media screen and (max-width:768px){
+    .web-logo{
+        display: none;
+    }
+    .slider{
+        margin-top: 75px !important;
+        height: 160px !important;
+    }
+    .navbar{
+        background-color: #fbab29;
+    }
+}
+@media screen and (min-width:768px){
+    .mob-logo{
+        display: none;
+    }
+    .chef{
+        background-color: black;
+    }
+}

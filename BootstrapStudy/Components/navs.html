@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap_css_jsp/bootstrap.min.css">
+    <script src="../bootstrap/bootstrap_css_jsp/bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row ">
+                <ul class="nav nav-pills text-capitalize navbar-light bg-light">
+                    <li class="nav-item"><a class="nav-link active" href="">list1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">list2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">list3</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">list4</a></li>
+                </ul>
+            </div>
+            <!-- When using a <nav>-based navigation, you can safely omit .nav-item as only .nav-link is required for styling <a> elements. -->
+            <div class="row ">
+                <nav class="nav text-capitalize navbar-dark bg-dark flex-column nav-tabs">
+                    <a class="nav-link" href="">list1</a>
+                    <a class="nav-link" href="">list2</a>
+                    <a class="nav-link active" href="">list3</a>
+                    <a class="nav-link" href="">list4</a>
+                </nav>
+            </div>
+        </div>
+        <!-- Fill and justify -->
+        <div class="container">
+                <!-- --fill= Notice that all horizontal space is occupied, but not every nav item has the same width. -->
+            <div class="row">
+                <ul class="nav nav-tabs nav-fill text-capitalize navbar-light bg-info">
+                    <li class="nav-item"><a class="nav-link border" href="">list1</a></li>
+                    <li class="nav-item"><a class="nav-link border" href="">list2</a></li>
+                    <li class="nav-item"><a class="nav-link border" href="">list3</a></li>
+                    <li class="nav-item"><a class="nav-link border" href="">list4</a></li>
+                </ul>
+            </div>
+            <!-- --justify= For equal-width elements, use .nav-justified. -->
+            <div class="row">
+                <ul class="nav nav-tabs nav-justified text-capitalize navbar-light bg-info">
+                    <li class="nav-item"><a class="nav-link border" href="">list1</a></li>
+                    <li class="nav-item"><a class="nav-link border" href="">list2</a></li>
+                    <li class="nav-item"><a class="nav-link border" href="">list3</a></li>
+                    <li class="nav-item"><a class="nav-link border" href="">list4</a></li>
+                </ul>
+            </div>
+        </div>      
+    </div>
+</body>
+ </html> 

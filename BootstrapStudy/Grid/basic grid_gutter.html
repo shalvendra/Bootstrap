@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../bootstrap_css_jsp/bootstrap.min.css">
+    <script src="bootstrap_css_jsp/bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+        .a{
+            height: 100px;
+            background-color: blueviolet;
+        }
+        .mob{
+            display: none;   /*mobile wala logo desktop ki screen pe nahi dikhega */
+        }
+        @media(max-width:500px){
+            .mob{
+                display: block;
+            }
+            .des{
+                display: none;  /*desktop wala logo mobile ki screen pe nahi dikhega */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        -- jis column ki height varry kar rahi dusre colums se to hum uske parent pe d-flex laga denge.
+        -- hamesa col-*-* ke andar ek child div banaao or us par bootstrap ki style use karo
+           jisse jo parent div hai unse child div ko 15px ka padding mil jata gutters ke dwara left or right, 
+           by-default 3 rehata hai gutter ki horizontal padding(gx-3).
+        -- Gutters are the padding between your columns, jis row par aap gutters laga rahe hai wo pehele likho uske baad jis row par gutter
+           nahi hai wo baad mai likho nahi to jis row par aap gutter laga rahe hai wo dusri row mai bhi interfair karega.
+           (try kiji ki jis row par aap gutter laga rahae hai wo single ho ek parent cont. mai, agar ek row pe laga rahe or dusri pe nahi to to theek
+             agar dono pe laga diya to phir interfair karega.) 
+        -- gy-(0 t0 5) =   y-axis pe padding de dega (gutter hamesha row pe lagta hai, ek row ke sabhi columns ka total saize 12 hota hai
+                            agar isse jayada diya to to wo columns new row banayenge,jisse ek row ke andar do row ban jayengi to jo 
+                            parent row hai uske jo child rows un par hum gy laga ke vertical padding de sakte hai  ).  
+        -- gx-(0 t0 5) =   x-axis pe padding de dega (default 3 set rehata hai).  
+        -- g-0         =   agar hum denge to saare margins hat jayenge
+        -- Gutters are the gaps between column content, created by horizontal padding. We set padding-right and padding-left on each column.
+     -->
+    <div class="container bg-info">
+        <div class="row logo"> 
+            <div class="col-md-1"><!-- image column se kitni bhi badi kyo na ho par image ki width 100% karte hi jitna image ke parent grid ke column ka size hai us size ko pura use kar legi usse bahar nahi jaegi or image responsive bhi ban jaegi-->
+                <img class="des w-100" src="https://e7.pngegg.com/pngimages/572/734/png-clipart-responsive-web-design-bootstrap-front-end-web-development-logo-design-purple-template-thumbnail.png">
+                <img class="mob w-100" src="https://i.stack.imgur.com/dMXbE.png">
+            </div>
+        </div>
+        <div class="row gy-3 py-3">
+            <div class="col-md-4">
+                <div class="a "></div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="a"></div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="a"></div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="a"></div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="a"></div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="a"></div>
+            </div>
+        </div>
+        <div class="row gy-3 py-3">
+            <div class="col-md-2">
+                <div class="a "></div>
+            </div>
+            <div class="col-md-2">
+                <div class="a "></div>
+            </div>
+            <div class="col-md-2">
+                <div class="a "></div>
+            </div>
+            <div class="col-md-2">
+                <div class="a "></div>
+            </div>
+            <div class="col-md-2">
+                <div class="a "></div>
+            </div>
+            <div class="col-md-2">
+                <div class="a "></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,170 @@
+@keyframes logo {
+    30% {
+        transform: translatey(-20px);
+    }
+
+    30% {
+        transform: translatey(0px);
+    }
+
+    30% {
+        transform: translatey(20px);
+    }
+}
+
+.oneimg{
+    max-width: 104px;
+}
+
+.oneimg:hover {
+    transform: translateY(-10px);
+    transition-duration: 1s;
+}
+
+.onediv p {
+    padding: 50px 30px 63px 30px;
+    font-size: 14px;
+    color: #716f85;
+    line-height: 26px;
+}
+
+.onediv {
+    border-radius: 20px;
+    width: 330px !important;
+    margin: 30px 0px !important;
+}
+
+.movinglogo {
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+/*4 moving icon containers end  */
+
+.cf_2{
+    background-color: #009df2;
+    margin-top: 100px;
+    padding: 100px 0px;
+}
+
+.c_1{
+    max-width: 1140px !important;
+}
+
+.heading_h2{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: white;
+    margin-left: 20px;
+    padding-bottom: 50px;
+}
+
+.icon{
+    font-size: 47px;
+    color: red;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+
+}
+
+.right_content{
+    color: white;
+}
+
+.right_content p{
+    font-weight: 300;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.right_content h4{
+    margin-bottom: 10px;
+    letter-spacing: 0.25px;
+    margin-left: 25px;
+}
+
+/* cf_2 end */
+
+/* cf_3 start */
+
+.cf_3{
+    max-width: 1140px !important;
+    margin-top: 100px;
+}
+
+.cf3_menu li:hover{
+    color: #009df2;   
+}
+
+.fourdiv{
+    border-radius: 20px;
+    /* max-width: 250px !important;
+    margin: 30px 15px !important; */
+}
+
+/* .fourimg{
+    max-width: 140px;
+    max-height: 145px;
+} */
+
+.fourimg:hover{
+    transform: scale(1.09);
+}
+
+/* cf_3 end */
+
+/* cf_4 start */
+
+.cf_4{
+    max-width: 1140px !important;
+    margin-top: 100px;
+}
+                
+.cf4_col{
+    border-radius: 20px;   
+    max-width: 340px !important;
+    margin: 15px 15px !important;
+}
+.shadow{
+    border-radius: 20px !important;
+}
+
+/* cf_4 end */
+
+/* cf_5 start */
+
+.cf_5{
+    background-color: #009df2;
+    margin-top: 100px;
+}
+
+.cf5_container{
+    max-width: 1140px !important;
+    padding: 100px 0px;
+}
+
+.cf_4 li{
+    text-align: justify;
+    font-size: 12px;
+}
+
+.text{
+    margin: 20px 30px;
+    text-align-last: center;
+}
+
+.oneimgg:hover {
+    transform: scale(1.09);
+    transition-duration: 1s;
+}
+
+.card{
+    border-radius: 20px !important;
+}
